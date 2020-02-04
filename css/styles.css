@@ -58,9 +58,30 @@ h2 {
   padding: 7% 15%;
 }
 
-
 #press {
- padding-bottom: 3%;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+[class*="col-"] {
+  margin-bottom: 30px;
+}
+
+.content {
+  height: 100%;
 }
 
 /* Navigation Bar */
@@ -91,7 +112,6 @@ h2 {
 }
 
 /* Images */
-
 .title-image {
   width: 60%;
   transform: rotate(25deg);
@@ -109,7 +129,6 @@ h2 {
 }
 
 /* Icons */
-
 .icon {
   font-family: "Montserrat";
   font-weight: bold;
